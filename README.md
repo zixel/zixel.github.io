@@ -1,4 +1,4 @@
 zixel.github.io
 ===============
 
-Zixel Main Repo
+zixel main repo
