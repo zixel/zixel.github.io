@@ -125,14 +125,6 @@ i.scroll:hover {
 	background: url(../img/bg.jpg) no-repeat center center scroll; 
   }
 
-  .callout {
-	background: url(../img/callout.jpg) no-repeat center center scroll; 
-  }
-
-  .map {
-	height: 75%;
-  }
-
 }
 
 /* Олимпийский мишка в футере*/
