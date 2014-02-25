@@ -1,0 +1,163 @@
+/* Основной файл стилей */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Лого */
+
+.sochi-logo {
+  width: 787px;
+  height: 325px;
+  background: url(../img/sochi-logo.png) no-repeat;
+  -webkit-background-size: 450px, 500px;
+  -moz-background-size: 450px, 500px;
+  -o-background-size: 450px, 500px;
+  background-size: 450px, 500px;
+}
+
+.sochi-logo-container {
+  margin: 0 auto;
+  width: 450px;
+  height: 200px;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+/* Шапка */
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../img/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Интро */
+
+.intro {
+  padding: 50px 0;
+}
+
+/* Результаты олимпиады */
+
+.total {
+  background: #0073AF;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+/* Организация */
+
+.sochi-org {
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../img/sochi-org.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* Открытие */
+
+.sochi-open {
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../img/sochi-open.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* Футер */
+
+footer {
+  padding: 100px 0;
+}
+
+.top-scroll {
+  margin-top: 50px;
+}
+
+.top-scroll a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i.scroll {
+  color: #333333;
+}
+
+i.scroll:hover {
+  color: #0a5175;
+}
+
+/* Адаптация под разные экраны, responsive верстка */
+@media (max-width: 768px) {
+	
+  .header {
+	background: url(../img/bg.jpg) no-repeat center center scroll; 
+  }
+
+  .callout {
+	background: url(../img/callout.jpg) no-repeat center center scroll; 
+  }
+
+  .map {
+	height: 75%;
+  }
+
+}
+
+/* Олимпийский мишка в футере*/
+.olympic-bear {
+  width: 300px;
+  height: 300px;
+  background: url(../img/olympic-bear.png) no-repeat;
+  -webkit-background-size: 150px, 150px;
+  -moz-background-size: 150px, 150px;
+  -o-background-size: 150px, 150px;
+  background-size: 150px, 150px;
+}
+
+.olympic-bear-container {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+
+.copyright {
+  font-size: 17pt;
+}
+
+.intro-label {
+  text-shadow: 0px 1px 4px #000;
+}
+
+
